@@ -1,0 +1,264 @@
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Mochiy Pop One', sans-serif;
+}
+    
+    nav{
+        display: flex;
+       margin: 0;
+        margin-left: 100px;
+        margin-top: 15px;
+        list-style-type: none;
+       
+       
+    }
+
+ nav li a{
+    display: inline;
+   list-style: none;
+    transition: o.2s ease;
+    color: whitesmoke;
+    cursor: pointer;
+    padding: 20px;
+    font-size: 25px;
+    margin-right: 0px;
+    transition: 0.2s ease;
+    text-decoration: none;
+ 
+}
+a:hover{
+    color: #000;
+    transform: scale(1.04);
+    
+}
+.nav{
+   
+    text-align: center;
+    margin-top: 200px;
+font-style: italic;
+font-size: 50px;
+color: aliceblue;
+
+}
+.nav p{
+    margin-top: 35px;
+    margin-left: 20px;
+ 
+}
+.add{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 30px 30px;
+    grid-column-gap: 20px;
+    grid-row-gap: 30px;
+}
+.item img{
+      width: 400px;
+      height: 400px;
+     object-fit: cover;
+     cursor: pointer;
+     transition: 0.2s ease;
+}
+.item img:hover{
+    transform: scale(1.04);
+}
+h2{
+    text-align: center;
+    animation-name: love;
+   
+}
+b{
+    
+    transition: 0.5s ease;
+    
+} 
+    
+
+b:hover{
+    transform: scale(1.5);
+    color: red;
+
+}
+
+.item button{
+    background-color: green;
+    color: antiquewhite;
+    text-align: center;
+    margin-left: 205px;
+   
+    
+}
+
+
+.food{
+    background-color: rgb(200, 91, 91);
+    color: rgb(241, 237, 237);
+   display: grid;
+    place-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+   font-size: 30px;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   border-radius: 15px;
+
+    
+} 
+
+/* contact us  style sheet.... */
+
+.bg{
+
+    background-color: rgb(140, 236, 140);
+    color: rgb(2, 1, 1);
+}
+.contact b{
+display: flex;
+position: relative;
+justify-content: center;
+align-items: center;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 30px;
+
+}
+
+.gn {
+margin-left: 300px;
+font-size: 20px;
+
+}
+#vertical-line{
+width: 2px;
+height: 100px;
+background-color: black;
+margin-left: 100px;
+}
+#social{
+margin-left: 120px;
+margin-top: 10px;
+}
+#social img{
+width: 30px;
+height: 30px;
+border-radius: 50%;
+margin-top: 10px;
+cursor: pointer;
+}
+#form{
+margin-top: 60px;
+margin-left: 300px;
+}
+#form ul li{
+list-style: none;
+font-size: 20px;
+margin-top: 10px;
+text-decoration: none;
+}
+#form input{
+width: 20%;
+padding-left: 300px;
+padding-right: 200px;
+background-color:rgb(225, 216, 216);
+
+}
+form ul button{
+cursor: pointer;
+margin-top: 40px; 
+padding-left:5px ;
+padding-right: 5px;
+margin-left: 50px;
+margin-bottom: 100px;
+}
+button:hover{
+color:whitesmoke;
+background-color: rgb(127, 127, 249);
+border-radius: 13px;
+
+
+}
+#new{
+width: 3px;
+height: 400px;
+background-color: whitesmoke;
+margin-left: 100px;
+}
+/* about style sheet.... */
+
+
+
+    .order{
+        color: beige; 
+        text-decoration-line: none;
+    }
+
+    #bg{
+        
+        width: 1500px;
+        height: 800px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      opacity: 0.8;
+    }
+    .copy{
+        margin-top: 70px;
+        background-color: black;
+        color: aliceblue;
+        
+    }
+    .about{
+        margin-top: 40px;
+        background-color: rgb(252, 157, 16);
+        color: #000;
+        height: 300px;
+
+    }
+    .about ul {
+display: flex;
+
+    }
+   
+     .about ul li{
+        padding-left: 70px;
+        list-style: none;
+        text-decoration: none;
+        margin-left: 10px;
+        cursor: pointer;
+        list-style-type: none;
+        color:black ;
+    }
+    .about ul li a{
+text-decoration: none;
+list-style-type: none;
+color: #000;
+
+    }
+   
+       
+    li b{
+        font-style: italic;
+        font-size: 45px;
+    }
+    .img{
+        display: flex;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        margin-top: 10px;
+        cursor: pointer;
+        margin-top: 10px;
+        margin-left: 500px;
+        padding-left: 50px;
+        
+    
+    }
+    
+ 
+
+
+   
+
+    
+  
+     
