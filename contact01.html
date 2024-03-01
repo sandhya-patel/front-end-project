@@ -7,8 +7,8 @@
     <title>about</title>
     <style type="text/css">
         nav {
-    background-color: rgb(32, 83, 32);
-    color: black;
+    /* background-color: rgb(189, 236, 189); */
+    color: rgb(248, 242, 242);
    display: grid;
     place-items: center;
     margin-bottom: 30px;
@@ -80,8 +80,11 @@ nav ul  a:hover{
     margin-top: 40px;
     font-size: large;
 }
+.nav{
+    margin-bottom: 0;
+}
 .copy{
-        margin-top: 70px;
+        margin-top: 30px;
         background-color: black;
         color: aliceblue;
         
@@ -96,7 +99,7 @@ nav ul  a:hover{
     }
     .about{
        
-        margin-top: 40px;
+        margin-top: 0px;
         background-color: rgb(252, 157, 16);
         color: #000;
         height: 300px;
@@ -138,24 +141,144 @@ color: #000;
         
     
     }
+    .contact{
+        margin-top: 0;
+    }
+
+    .bgImage{
+        background-image: url('./image/01.jpg');
+        background-repeat: no-repeat;
+      background-size: cover;
+      opacity: 0.9;
+      height: 1000px;
+      margin-bottom: 0px;
+
+    }
+    h2{
+        
+        color: rgb(236, 247, 247);
+        margin-top: 100px;
+        margin-left: 600px;
+        font-size: 35px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: bolder;
+    }
+    .us{
+        background-color: rgb(255, 240, 251);
+       
+        width: 400px;
+        height: 380px;
+      margin-top: 300px;
+      margin-left: 20px;
+        
+    }
+    .div{
+        display: flex;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+    }
+    h3{
+        margin-left: 10px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    h4{
+        margin-left: 10px;
+        margin-top: 0px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .span{
+        margin-left: 50px;
+    }
+    #us{
+        background-color: rgb(225, 201, 205);
+       
+    }
+
+    input{
+        margin-left: 60px;
+        margin-top: 10px;
+        padding: 20px 20px 20px 100px;
+        border-radius: 20px;
+        border: none;
+        
+    }
+    .form button{
+
+        margin-left: 150px;
+        margin-top: 20px;
+        padding: 10px 40px 10px 40px;
+        border-radius: 5px;
+        border: none;
+        color: #000;
+        cursor: pointer;
+        background-color: rgb(30, 245, 174);
+
+        
+    }
     
   
 
     </style>
 </head>
 <body> 
-    <nav class="nav">
-    <ul type="none">
-        <a href="loginpage.html"><li>login</li></a>
-        <a href="about.html"><li>About</li></a>
-        <a href="contact01.html"><li>Contact us</li></a>
-<a href="foodie.html"><li> Home </li></a>
+   
+
+<section class="contact">
+
+    <div class="bgImage">
+
+        <nav class="nav">
+            <ul type="none">
+                <a href="loginpage.html"><li>login</li></a>
+                <a href="about.html"><li>About</li></a>
+                <a href="contact01.html"><li>Contact us</li></a>
+        <a href="foodie.html"><li> Home </li></a>
+        
+        </ul>
+        </nav>
+        <hr>
+
+        <h2 >Contact </h2>
+
+        <div class="div">
+            <div class="us">
+                
+                <h3>  Contact Us</h3>
+                <hr>
+                <div class="span">
+                <h5>  Location </h5>
+               
+                 <p>  damohMadhyaPradesh</p> 
+                  
+                  <h5>  Email  </h5>
+                  <p> -foodiworld12@gmail.com </p> 
+                <h5>Phone</h5>
+               <p>-9329XXXXXXX</p>
+                
+            </div>
+
+           
+            </div>
+            <div class="us" id="us">
+               <h3>Leave a Meassage</h3> 
+              <h4>We're Ready to Help You</h4> 
+               <hr>
+               <div class="form">
+                <input type="text" placeholder="Full Name"> <br>
+                <input type="email" placeholder="Email"> <br>
+                <input type="number" placeholder="Phone">
+
+                <button>submit</button>
+               </div>
+            </div>
+        </div>
+
+    </div>
 
 
 
-
-</ul>
-</nav>
+</section>
    
     
     
