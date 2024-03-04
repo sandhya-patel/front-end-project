@@ -7,10 +7,10 @@
 </head>
 <style>
   body{
-    background-color: rgb(172, 173, 173);
+    background-color: rgb(70, 137, 137);
   }
   form{
-    background-color: whitesmoke;
+    background-color: rgb(234, 231, 231);
     position: relative;
     justify-content: center;
     align-items: center;
@@ -42,11 +42,9 @@
     margin-top: 35px;
   }
   .s02{
-    padding-left:220px ;
-    padding-right: 220px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+   
     margin-top: 25px;
+    padding: 5px 220px 5px 220px;
     cursor: pointer;
     background-color: rgb(7, 152, 7);
     color: whitesmoke !important;
@@ -59,13 +57,26 @@
   .btn{
     margin-left: 600px;
     cursor: pointer;
-    background-color: red;
-    color: whitesmoke;
+    background-color: rgb(253, 5, 5);
+   
+    
   }
   .s03{
     margin-left: 50px;
     color: bold;
     cursor: pointer;
+    color: blue;
+  }
+  a{
+    text-decoration-line: none;
+    list-style-type: none;
+color: antiquewhite;
+  }
+  .s04 a{
+    text-decoration-line: none;
+    list-style-type: none;
+    color: black;
+
   }
 </style>
 <body>
@@ -73,7 +84,7 @@
   <div id="s01">
     <form action="login form">
       <b>login</b>
-      <span onclick="getElementById(s01)" style.diplay="none" class="close"> &times;</span>
+      <span class="s04"><a href="foodie.html">&times;</a></span>
       <hr>
       <ul>
       User name  <br>
@@ -84,14 +95,12 @@
     
       <button class="s02"> <a href="foodie.html">login </a></login></button></ul> <br>
       <i class="s03">forget_password</i>
-      <button class="btn">cancle</button>
+      <button class="btn"><a href="foodie.html">cancle </a></button>
       
 
 
     </form>
   </div>
-  <script>
-    let modal=getElementById("s01");
-  </script>
+  
 </body>
 </html>
